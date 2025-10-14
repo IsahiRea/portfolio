@@ -183,8 +183,21 @@ header {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 150px;
+}
 
+.logo__text {
+  font-family: var(--ff-secondary);
+  font-size: 1.125rem;
+  font-weight: var(--fw-bold);
+  color: var(--clr-dark);
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 800px) {
+  .logo__text {
+    font-size: 1.25rem;
+  }
 }
 
 .nav-toggle {

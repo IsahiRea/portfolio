@@ -7,14 +7,17 @@ export default function MyServices() {
             <div className="services">
                 <div className="service">
                     <h3>Web Design</h3>
+                    {/* Talk about Figma and design systems */}
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.</p>
                 </div>
                 <div className="service">
                     <h3>Front-end Development</h3>
+                    {/* Talk about React and accessibility */}
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.</p>
                 </div>
                 <div className="service">
                     <h3>Back-end Development</h3>
+                    {/* Talk about node and Express */}
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.</p>
                 </div>
             </div>

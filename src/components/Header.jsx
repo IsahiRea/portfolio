@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { HashLink } from 'react-router-hash-link'
-import logo from '../assets/img/devjane.png'
 
 export default function Header() {
     const [navOpen, setNavOpen] = useState(false);
@@ -18,7 +17,7 @@ export default function Header() {
     return (
         <header>
             <div className="logo">
-                <img src={logo} alt="" />
+                <span className="logo__text">&lt;Cesar Rea&gt;</span>
             </div>
             <button
                 className="nav-toggle"
