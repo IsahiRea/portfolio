@@ -1,9 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useParams } from 'react-router-dom'
 import { getProjectBySlug } from '../utils/portfolioHelpers'
-import portfolio01 from '../assets/img/portfolio-01.jpg'
-import portfolio02 from '../assets/img/portfolio-02.jpg'
-import portfolio03 from '../assets/img/portfolio-03.jpg'
 import {
   CheckIcon,
   ZoomIcon,
@@ -16,13 +13,6 @@ import {
 } from '../assets/icons'
 
 //TODO: Replace portfolio.json with my own projects
-
-// Map image imports to project IDs (moved outside component for performance)
-const IMAGE_MAP = {
-  'project-1': portfolio01,
-  'project-2': portfolio02,
-  'project-3': portfolio03
-}
 
 export default function PortfolioItem() {
   const { slug } = useParams()
@@ -107,7 +97,7 @@ export default function PortfolioItem() {
           <strong>{project.title}</strong>
         </h1>
         <p className="section__subtitle section__subtitle--intro">{project.subtitle}</p>
-        <img src={IMAGE_MAP[project.id]} alt={project.title} className='intro__img' />
+        <img src={project.images.thumbnail} alt={project.title} className='intro__img' />
       </section>
 
       <div className='portfolio-item-individual'>
