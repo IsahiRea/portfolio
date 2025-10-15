@@ -13,13 +13,13 @@ export const portfolioItems = [
   { id: 1, img: portfolio01, title: 'Project 1', description: 'Description for project 1', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
   { id: 2, img: portfolio02, title: 'Project 2', description: 'Description for project 2', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
   { id: 3, img: portfolio03, title: 'Project 3', description: 'Description for project 3', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
-  { id: 4, img: portfolio04, title: 'Project 4', description: 'Description for project 4', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
-  { id: 5, img: portfolio05, title: 'Project 5', description: 'Description for project 5', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
-  { id: 6, img: portfolio06, title: 'Project 6', description: 'Description for project 6', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
-  { id: 7, img: portfolio07, title: 'Project 7', description: 'Description for project 7', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
-  { id: 8, img: portfolio08, title: 'Project 8', description: 'Description for project 8', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
-  { id: 9, img: portfolio09, title: 'Project 9', description: 'Description for project 9', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
-  { id: 10, img: portfolio10, title: 'Project 10', description: 'Description for project 10', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
+  // { id: 4, img: portfolio04, title: 'Project 4', description: 'Description for project 4', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
+  // { id: 5, img: portfolio05, title: 'Project 5', description: 'Description for project 5', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
+  // { id: 6, img: portfolio06, title: 'Project 6', description: 'Description for project 6', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
+  // { id: 7, img: portfolio07, title: 'Project 7', description: 'Description for project 7', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
+  // { id: 8, img: portfolio08, title: 'Project 8', description: 'Description for project 8', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
+  // { id: 9, img: portfolio09, title: 'Project 9', description: 'Description for project 9', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
+  // { id: 10, img: portfolio10, title: 'Project 10', description: 'Description for project 10', subtitle: 'front-end dev', sampleImg: '/src/assets/img/portfolio-details.jpg' },
 ]
 
 export function getPortfolioItemById(id) {

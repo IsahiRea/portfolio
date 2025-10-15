@@ -1,5 +1,3 @@
-import profile from '../assets/img/dev-jane-01.jpg'
-
 export default function Intro() {
     return (
         <section className="intro" id="home">
@@ -7,7 +5,7 @@ export default function Intro() {
                 Hi, I am <strong>Cesar Rea</strong>
             </h1>
             <p className="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src={profile} alt="Jane Smith smiling" className='intro__img' />
+            <img src="https://placehold.co/400x400/6c63ff/ffffff?text=Profile+Photo" alt="Profile placeholder" className='intro__img' />
         </section>  
     )
 }
