@@ -1,0 +1,120 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "slug": "travel-agent",
+      "title": "Travel Agent",
+      "subtitle": "front-end dev",
+      "shortDescription": "A modern web application showcasing front-end development skills with React and modern JavaScript.",
+      "fullDescription": "This project demonstrates proficiency in building responsive, accessible web applications using React and modern JavaScript frameworks. The application features a clean, intuitive interface with smooth animations and excellent user experience. Built with performance optimization in mind, it showcases best practices in front-end development including component architecture, state management, and responsive design principles.",
+      "category": "frontend",
+      "tags": ["React", "JavaScript", "CSS"],
+      "technologies": {
+        "frontend": ["React", "JavaScript", "HTML5", "CSS3"],
+        "tools": ["Vite", "Git", "ESLint"]
+      },
+      "images": {
+        "thumbnail": "/src/assets/img/portfolio-01.jpg",
+        "hero": "/src/assets/img/portfolio-details.jpg",
+        "screenshots": ["/src/assets/img/portfolio-details.jpg"]
+      },
+      "links": {
+        "live": "",
+        "github": "https://github.com/IsahiRea/travel-agent"
+      },
+      "date": "2024-01",
+      "status": "completed",
+      "featured": true,
+      "highlights": [
+        "Responsive design across all devices",
+        "Optimized performance and accessibility",
+        "Clean and maintainable code structure"
+      ]
+    },
+    {
+      "id": "project-2",
+      "slug": "project-2",
+      "title": "Project 2",
+      "subtitle": "front-end dev",
+      "shortDescription": "An interactive web application featuring advanced front-end techniques and modern UI patterns.",
+      "fullDescription": "Project 2 represents an evolution in front-end development, incorporating advanced techniques such as state management, API integration, and complex UI interactions. This application demonstrates the ability to build scalable, maintainable applications while ensuring excellent user experience. The project showcases expertise in component-based architecture, performance optimization, and accessibility standards.",
+      "category": "frontend",
+      "tags": ["React", "JavaScript", "API Integration"],
+      "technologies": {
+        "frontend": ["React", "JavaScript", "CSS3"],
+        "tools": ["Vite", "Git"]
+      },
+      "images": {
+        "thumbnail": "/src/assets/img/portfolio-02.jpg",
+        "hero": "/src/assets/img/portfolio-details.jpg",
+        "screenshots": []
+      },
+      "links": {
+        "live": "",
+        "github": ""
+      },
+      "date": "2024-02",
+      "status": "completed",
+      "featured": true,
+      "highlights": [
+        "Advanced state management implementation",
+        "Seamless API integration",
+        "Intuitive user interface design"
+      ]
+    },
+    {
+      "id": "project-3",
+      "slug": "project-3",
+      "title": "Project 3",
+      "subtitle": "front-end dev",
+      "shortDescription": "A comprehensive front-end solution demonstrating full-stack integration capabilities.",
+      "fullDescription": "This project showcases the ability to create comprehensive web solutions that bridge front-end and back-end technologies. Featuring robust data handling, real-time updates, and sophisticated UI components, Project 3 demonstrates proficiency in building production-ready applications. The implementation follows industry best practices for code organization, testing, and deployment.",
+      "category": "frontend",
+      "tags": ["React", "JavaScript", "Full-Stack"],
+      "technologies": {
+        "frontend": ["React", "JavaScript", "CSS3"],
+        "backend": ["Node.js"],
+        "tools": ["Vite", "Git"]
+      },
+      "images": {
+        "thumbnail": "/src/assets/img/portfolio-03.jpg",
+        "hero": "/src/assets/img/portfolio-details.jpg",
+        "screenshots": []
+      },
+      "links": {
+        "live": "",
+        "github": ""
+      },
+      "date": "2024-03",
+      "status": "completed",
+      "featured": true,
+      "highlights": [
+        "Full-stack integration",
+        "Real-time data synchronization",
+        "Production-ready architecture"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "frontend",
+      "label": "Front-End",
+      "color": "#61DAFB"
+    },
+    {
+      "id": "backend",
+      "label": "Back-End",
+      "color": "#68A063"
+    },
+    {
+      "id": "fullstack",
+      "label": "Full-Stack",
+      "color": "#16E0BD"
+    },
+    {
+      "id": "design",
+      "label": "Design",
+      "color": "#F24E1E"
+    }
+  ]
+}
