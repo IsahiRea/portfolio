@@ -4,14 +4,15 @@
       "id": "project-1",
       "slug": "travel-agent",
       "title": "Travel Agent",
-      "subtitle": "front-end dev",
-      "shortDescription": "A modern web application showcasing front-end development skills with React and modern JavaScript.",
-      "fullDescription": "This project demonstrates proficiency in building responsive, accessible web applications using React and modern JavaScript frameworks. The application features a clean, intuitive interface with smooth animations and excellent user experience. Built with performance optimization in mind, it showcases best practices in front-end development including component architecture, state management, and responsive design principles.",
-      "category": "frontend",
-      "tags": ["React", "JavaScript", "CSS"],
+      "subtitle": "Full-Stack Development",
+      "shortDescription": "An intelligent travel planning application combining real-time flight data, hotel information, and weather forecasts with AI-powered recommendations.",
+      "fullDescription": "Travel Agent is a comprehensive travel planning application that leverages multiple APIs and AI technology to help users plan their perfect trip. The application features an interactive trip planning form with location swap functionality, budget planning capabilities, and real-time data from Amadeus (flights/hotels) and OpenWeather APIs. Powered by OpenAI for personalized recommendations, the app uses Promise.all for parallel data fetching, IndexedDB caching for airport codes and city coordinates, and session storage for efficient handling of large trip plans. Built with React 19 and React Router 7, it implements lazy-loaded routes and follows a mobile-first responsive design approach.",
+      "category": "fullstack",
+      "tags": ["React", "AI Integration", "API Integration", "IndexedDB"],
       "technologies": {
-        "frontend": ["React", "JavaScript", "HTML5", "CSS3"],
-        "tools": ["Vite", "Git", "ESLint"]
+        "frontend": ["React 19", "JavaScript", "CSS3", "React Router 7"],
+        "backend": ["OpenAI API", "Amadeus API", "OpenWeather API"],
+        "tools": ["Vite 7", "Git", "ESLint", "Zod", "IndexedDB"]
       },
       "images": {
         "thumbnail": "/src/assets/img/portfolio-01.jpg",
@@ -26,22 +27,25 @@
       "status": "completed",
       "featured": true,
       "highlights": [
-        "Responsive design across all devices",
-        "Optimized performance and accessibility",
-        "Clean and maintainable code structure"
+        "AI-powered trip recommendations using OpenAI",
+        "Real-time flight, hotel, and weather data integration",
+        "Advanced caching system with IndexedDB",
+        "Parallel API data fetching for optimal performance",
+        "Mobile-first responsive design with lazy-loaded routes"
       ]
     },
     {
       "id": "project-2",
-      "slug": "project-2",
-      "title": "Project 2",
-      "subtitle": "front-end dev",
-      "shortDescription": "An interactive web application featuring advanced front-end techniques and modern UI patterns.",
-      "fullDescription": "Project 2 represents an evolution in front-end development, incorporating advanced techniques such as state management, API integration, and complex UI interactions. This application demonstrates the ability to build scalable, maintainable applications while ensuring excellent user experience. The project showcases expertise in component-based architecture, performance optimization, and accessibility standards.",
+      "slug": "van-life",
+      "title": "Vanlife",
+      "subtitle": "Front-End Development",
+      "shortDescription": "A React-based marketplace for van rentals featuring secure authentication, host management dashboard, and mobile-optimized responsive design.",
+      "fullDescription": "Vanlife is a comprehensive single-page application marketplace for van rentals built as a learning project for React Router concepts. The application enables users to browse a catalog of vans with detailed listings and provides a secure authentication system for host access. The host dashboard includes income tracking, review monitoring, and rental management capabilities. Built with React 18.2.0 and React Router v6.4.3, the project demonstrates advanced concepts including loader-based data fetching, protected routes with authentication guards, and nested routing structures for complex layouts. Firebase Firestore handles data storage while MirageJS provides mock authentication. The application follows a modular CSS architecture and features a mobile-optimized responsive interface built with React Icons for UI elements.",
       "category": "frontend",
-      "tags": ["React", "JavaScript", "API Integration"],
+      "tags": ["React", "Firebase", "React Router", "Authentication"],
       "technologies": {
-        "frontend": ["React", "JavaScript", "CSS3"],
+        "frontend": ["React 18.2.0", "React Router 6.4.3", "JavaScript", "CSS3", "React Icons 5.5.0"],
+        "backend": ["Firebase Firestore", "MirageJS"],
         "tools": ["Vite", "Git"]
       },
       "images": {
@@ -50,16 +54,18 @@
         "screenshots": []
       },
       "links": {
-        "live": "",
-        "github": ""
+        "live": "https://quiet-rabanadas-3dba69.netlify.app/",
+        "github": "https://github.com/IsahiRea/van-life"
       },
       "date": "2024-02",
       "status": "completed",
       "featured": true,
       "highlights": [
-        "Advanced state management implementation",
-        "Seamless API integration",
-        "Intuitive user interface design"
+        "Loader-based data fetching with React Router",
+        "Protected routes with authentication guards",
+        "Nested routing structures for complex layouts",
+        "Host dashboard with income tracking and reviews",
+        "Firebase Firestore integration for data persistence"
       ]
     },
     {
