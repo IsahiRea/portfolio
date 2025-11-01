@@ -97,7 +97,7 @@ export default function PortfolioItem() {
           <strong>{project.title}</strong>
         </h1>
         <p className="section__subtitle section__subtitle--intro">{project.subtitle}</p>
-        <img src={project.images.thumbnail} alt={project.title} className='intro__img' />
+        <img src={project.images.thumbnail} alt={project.title} className='portfolio-intro__img' />
       </section>
 
       <div className='portfolio-item-individual'>

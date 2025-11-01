@@ -69,15 +69,25 @@ export default function Header() {
                         </HashLink>
                     </li>
                     <li className="nav__item">
-                        <HashLink 
-                            to="/#contact" 
-                            className="nav__link" 
+                        <HashLink
+                            to="/#contact"
+                            className="nav__link"
                             smooth
                             onClick={handleLinkClick}
                         >
                             Contact
                         </HashLink>
-                    </li> 
+                    </li>
+                    <li className="nav__item">
+                        <a
+                            href="/Cesar_rea_resume.pdf"
+                            className="nav__link nav__link--resume"
+                            download
+                            onClick={handleLinkClick}
+                        >
+                            Resume
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>

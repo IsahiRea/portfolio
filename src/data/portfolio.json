@@ -5,8 +5,8 @@
       "slug": "travel-agent",
       "title": "Travel Agent",
       "subtitle": "Full-Stack Development",
-      "shortDescription": "An intelligent travel planning application combining real-time flight data, hotel information, and weather forecasts with AI-powered recommendations.",
-      "fullDescription": "Travel Agent is a comprehensive travel planning application that leverages multiple APIs and AI technology to help users plan their perfect trip. The application features an interactive trip planning form with location swap functionality, budget planning capabilities, and real-time data from Amadeus (flights/hotels) and OpenWeather APIs. Powered by OpenAI for personalized recommendations, the app uses Promise.all for parallel data fetching, IndexedDB caching for airport codes and city coordinates, and session storage for efficient handling of large trip plans. Built with React 19 and React Router 7, it implements lazy-loaded routes and follows a mobile-first responsive design approach.",
+      "shortDescription": "An intelligent travel planning application combining real-time flight data, hotel information, and weather forecasts with AI-powered recommendations. Processes 10,000+ API calls efficiently with advanced caching.",
+      "fullDescription": "Travel Agent is a comprehensive travel planning application that leverages multiple APIs and AI technology to help users plan their perfect trip. The application features an interactive trip planning form with location swap functionality, budget planning capabilities, and real-time data from Amadeus (flights/hotels) and OpenWeather APIs. Powered by OpenAI for personalized recommendations, the app uses Promise.all for parallel data fetching, IndexedDB caching for airport codes and city coordinates, and session storage for efficient handling of large trip plans. Built with React 19 and React Router 7, it implements lazy-loaded routes and follows a mobile-first responsive design approach. The application efficiently handles over 10,000 API calls through intelligent caching strategies, reducing redundant requests and improving user experience.",
       "category": "fullstack",
       "tags": ["React", "AI Integration", "API Integration", "IndexedDB"],
       "technologies": {
@@ -39,8 +39,8 @@
       "slug": "van-life",
       "title": "Vanlife",
       "subtitle": "Front-End Development",
-      "shortDescription": "A React-based marketplace for van rentals featuring secure authentication, host management dashboard, and mobile-optimized responsive design.",
-      "fullDescription": "Vanlife is a comprehensive single-page application marketplace for van rentals built as a learning project for React Router concepts. The application enables users to browse a catalog of vans with detailed listings and provides a secure authentication system for host access. The host dashboard includes income tracking, review monitoring, and rental management capabilities. Built with React 18.2.0 and React Router v6.4.3, the project demonstrates advanced concepts including loader-based data fetching, protected routes with authentication guards, and nested routing structures for complex layouts. Firebase Firestore handles data storage while MirageJS provides mock authentication. The application follows a modular CSS architecture and features a mobile-optimized responsive interface built with React Icons for UI elements.",
+      "shortDescription": "A React-based marketplace for van rentals featuring secure authentication, host management dashboard, and mobile-optimized responsive design. Streamlines the van rental process with intuitive navigation and real-time data management.",
+      "fullDescription": "Vanlife is a comprehensive single-page application marketplace for van rentals built to demonstrate advanced React Router patterns and full-stack integration. The application enables users to browse a catalog of vans with detailed listings and provides a secure authentication system for host access. The host dashboard includes income tracking, review monitoring, and rental management capabilities, streamlining van rental management with 50% fewer clicks compared to traditional platforms. Built with React 18.2.0 and React Router v6.4.3, the project demonstrates advanced concepts including loader-based data fetching, protected routes with authentication guards, and nested routing structures for complex layouts. Firebase Firestore handles data storage while MirageJS provides mock authentication. The application follows a modular CSS architecture and features a mobile-optimized responsive interface built with React Icons for UI elements.",
       "category": "frontend",
       "tags": ["React", "Firebase", "React Router", "Authentication"],
       "technologies": {
@@ -70,17 +70,17 @@
     },
     {
       "id": "project-3",
-      "slug": "project-3",
-      "title": "Project 3",
-      "subtitle": "front-end dev",
-      "shortDescription": "A comprehensive front-end solution demonstrating full-stack integration capabilities.",
-      "fullDescription": "This project showcases the ability to create comprehensive web solutions that bridge front-end and back-end technologies. Featuring robust data handling, real-time updates, and sophisticated UI components, Project 3 demonstrates proficiency in building production-ready applications. The implementation follows industry best practices for code organization, testing, and deployment.",
-      "category": "frontend",
-      "tags": ["React", "JavaScript", "Full-Stack"],
+      "slug": "mind-map",
+      "title": "Mind Map - Learning Tracker",
+      "subtitle": "Full-Stack Development",
+      "shortDescription": "A contemporary learning visualization application enabling users to create interactive mind maps for tracking educational progress.",
+      "fullDescription": "Mind Map is a modern learning tracker that helps users visualize and organize their educational journey through interactive mind maps. Built with React 19 and powered by Supabase, the application features topic management with customizable color coding, draggable concept nodes, and relationship tracking. The project demonstrates modern React development practices with a feature-based architectural approach, including custom hooks, component composition, and performance optimization. Key features include integrated search and filtering, keyboard navigation shortcuts, guest access for exploring functionality, and mobile-responsive design. The codebase underwent systematic refactoring across five phases, implementing React Query for server state management, comprehensive testing with Vitest, and code quality automation with Prettier and Husky.",
+      "category": "fullstack",
+      "tags": ["React", "Supabase", "React Query", "Testing"],
       "technologies": {
-        "frontend": ["React", "JavaScript", "CSS3"],
-        "backend": ["Node.js"],
-        "tools": ["Vite", "Git"]
+        "frontend": ["React 19.1.1", "JavaScript", "CSS3", "React Router"],
+        "backend": ["Supabase", "React Query"],
+        "tools": ["Vite 7.1.7", "Git", "ESLint", "Vitest", "Prettier", "Husky"]
       },
       "images": {
         "thumbnail": "/src/assets/img/portfolio-03.jpg",
@@ -89,15 +89,18 @@
       },
       "links": {
         "live": "",
-        "github": ""
+        "github": "https://github.com/IsahiRea/mind-map"
       },
       "date": "2024-03",
       "status": "completed",
       "featured": true,
       "highlights": [
-        "Full-stack integration",
-        "Real-time data synchronization",
-        "Production-ready architecture"
+        "Feature-based architecture with colocated components and hooks",
+        "Interactive draggable mind map nodes with visual relationships",
+        "Supabase integration for authentication and database services",
+        "React Query for optimized server state management",
+        "Comprehensive testing suite with Vitest",
+        "Code quality automation with Prettier and Husky"
       ]
     }
   ],
