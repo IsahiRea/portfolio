@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PageLayout />}>
           <Route index element={<Body />} />
-          <Route path="portfolio/:id" element={<PortfolioItem />} />
+          <Route path="portfolio/:slug" element={<PortfolioItem />} />
         </Route>
       </Routes>
     </Router>

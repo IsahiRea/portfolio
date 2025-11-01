@@ -4,6 +4,8 @@ import MyServices from './MyServices.jsx'
 import AboutMe from './AboutMe.jsx'
 import MyWorks from './MyWorks.jsx'
 
+// TODO: Replace placeholder images in Intro and AboutMe with actual images if available
+
 export default function Body() {
     return (
         <>

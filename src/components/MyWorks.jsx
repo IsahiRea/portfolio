@@ -1,15 +1,21 @@
 import { Link } from 'react-router-dom'
-import { portfolioItems } from '../data/portfolioData'
+import { getAllProjects } from '../utils/portfolioHelpers'
 
 export default function MyWorks() {
+  const projects = getAllProjects()
+
   return (
     <section className="my-work" id="work">
       <h2 className="section__title section__title--work">My Work</h2>
       <p className="section__subtitle section__subtitle--work">A selection of my range of work.</p>
       <div className="portfolio">
-        {portfolioItems.map(item => (
-          <Link to={`/portfolio/${item.id}`} className="portfolio__item" key={item.id}>
-            <img src={item.img} alt={item.title} className="portfolio__img" />
+        {projects.map(project => (
+          <Link to={`/portfolio/${project.slug}`} className="portfolio__item" key={project.id}>
+            <img
+              src={project.images.thumbnail}
+              alt={project.title}
+              className="portfolio__img"
+            />
           </Link>
         ))}
       </div>
