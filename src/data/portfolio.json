@@ -17,7 +17,11 @@
       "images": {
         "thumbnail": "/src/assets/img/portfolio-01.jpg",
         "hero": "/src/assets/img/portfolio-details.jpg",
-        "screenshots": ["/src/assets/img/portfolio-details.jpg"]
+        "screenshots": [
+          "https://raw.githubusercontent.com/IsahiRea/travel-agent/main/screenshots/home-page.png",
+          "https://raw.githubusercontent.com/IsahiRea/travel-agent/main/screenshots/planning-page.png",
+          "https://raw.githubusercontent.com/IsahiRea/travel-agent/main/screenshots/results-page.png"
+        ]
       },
       "links": {
         "live": "",
@@ -51,7 +55,16 @@
       "images": {
         "thumbnail": "/src/assets/img/portfolio-02.jpg",
         "hero": "/src/assets/img/portfolio-details.jpg",
-        "screenshots": []
+        "screenshots": [
+          "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/home.png",
+          "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/about.png",
+          "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/vans.png",
+          "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/login.png",
+          "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/host-dashboard.png",
+          "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/host-income.png",
+          "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/host-vans.png",
+          "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/host-reviews.png"
+        ]
       },
       "links": {
         "live": "https://quiet-rabanadas-3dba69.netlify.app/",
@@ -85,7 +98,12 @@
       "images": {
         "thumbnail": "/src/assets/img/portfolio-03.jpg",
         "hero": "/src/assets/img/portfolio-details.jpg",
-        "screenshots": []
+        "screenshots": [
+          "https://raw.githubusercontent.com/IsahiRea/mind-map/main/screenshots/home-page.png",
+          "https://raw.githubusercontent.com/IsahiRea/mind-map/main/screenshots/topic-map.png",
+          "https://raw.githubusercontent.com/IsahiRea/mind-map/main/screenshots/node-details-modal.png",
+          "https://raw.githubusercontent.com/IsahiRea/mind-map/main/screenshots/auth-modal.png"
+        ]
       },
       "links": {
         "live": "",
