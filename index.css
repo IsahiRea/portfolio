@@ -665,11 +665,15 @@ header {
   background: var(--clr-accent);
   width: 100%;
   overflow: hidden;
+  aspect-ratio: 3 / 4;
 }
 
 .portfolio__img {
   width: 100%;
-  transition: 
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition:
     transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
 }
@@ -760,6 +764,10 @@ header {
 
 .portfolio-intro__img {
   box-shadow: var(--bs);
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
 }
 
 
@@ -842,6 +850,7 @@ header {
   border-radius: 12px;
   box-shadow: var(--bs);
   transition: transform 300ms ease, box-shadow 300ms ease;
+  max-height: 500px;
 }
 
 .project-hero-image__container:hover {
@@ -852,7 +861,10 @@ header {
 
 .project-hero-image__img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: top center;
   display: block;
   border-radius: 12px;
 }

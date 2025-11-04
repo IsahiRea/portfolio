@@ -15,8 +15,8 @@
         "tools": ["Vite 7", "Git", "ESLint", "Zod", "IndexedDB"]
       },
       "images": {
-        "thumbnail": "/src/assets/img/portfolio-01.jpg",
-        "hero": "/src/assets/img/portfolio-details.jpg",
+        "thumbnail": "/src/assets/img/travel-agent-thumbnail.png",
+        "hero": "/src/assets/img/travel-agent-hero.png",
         "screenshots": [
           "https://raw.githubusercontent.com/IsahiRea/travel-agent/main/screenshots/home-page.png",
           "https://raw.githubusercontent.com/IsahiRea/travel-agent/main/screenshots/planning-page.png",
@@ -53,8 +53,8 @@
         "tools": ["Vite", "Git"]
       },
       "images": {
-        "thumbnail": "/src/assets/img/portfolio-02.jpg",
-        "hero": "/src/assets/img/portfolio-details.jpg",
+        "thumbnail": "/src/assets/img/vanlife-thumbnail.png",
+        "hero": "/src/assets/img/vanlife-hero.png",
         "screenshots": [
           "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/home.png",
           "https://raw.githubusercontent.com/IsahiRea/van-life/main/screenshots/about.png",
@@ -96,8 +96,8 @@
         "tools": ["Vite 7.1.7", "Git", "ESLint", "Vitest", "Prettier", "Husky"]
       },
       "images": {
-        "thumbnail": "/src/assets/img/portfolio-03.jpg",
-        "hero": "/src/assets/img/portfolio-details.jpg",
+        "thumbnail": "/src/assets/img/mind-map-thumbnail.png",
+        "hero": "/src/assets/img/mind-map-hero.png",
         "screenshots": [
           "https://raw.githubusercontent.com/IsahiRea/mind-map/main/screenshots/home-page.png",
           "https://raw.githubusercontent.com/IsahiRea/mind-map/main/screenshots/topic-map.png",

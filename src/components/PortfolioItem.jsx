@@ -12,7 +12,6 @@ import {
   ArrowIcon
 } from '../assets/icons'
 
-//TODO: Replace portfolio.json with my own projects
 
 export default function PortfolioItem() {
   const { slug } = useParams()
