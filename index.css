@@ -649,8 +649,6 @@ header {
   background-color: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
-  background-image: url('./src/assets/img/works-bg.jpg');
-  background-size: cover;
 }
 
 .portfolio {

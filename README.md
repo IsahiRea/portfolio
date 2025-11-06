@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React and Vite, showcasing pro
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://cesarrea.dev)
+[View Portfolio](https://portfolio-f5cn5lfy7-cesar-reas-projects.vercel.app/)
 
 ## 📋 Table of Contents
 
@@ -195,7 +195,7 @@ This is a personal portfolio project, but suggestions and feedback are welcome! 
 
 Cesar Rea - [LinkedIn](https://linkedin.com/in/cesar-rea) - [GitHub](https://github.com/IsahiRea)
 
-Portfolio: [https://cesarrea.dev](https://cesarrea.dev)
+Portfolio: [https://portfolio-f5cn5lfy7-cesar-reas-projects.vercel.app/](https://portfolio-f5cn5lfy7-cesar-reas-projects.vercel.app/)
 
 ---
 
