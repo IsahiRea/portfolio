@@ -24,7 +24,7 @@
         ]
       },
       "links": {
-        "live": "",
+        "live": "https://travel-agent-azure.vercel.app/",
         "github": "https://github.com/IsahiRea/travel-agent"
       },
       "date": "2024-01",
@@ -106,7 +106,7 @@
         ]
       },
       "links": {
-        "live": "",
+        "live": "https://mind-map-flax.vercel.app/",
         "github": "https://github.com/IsahiRea/mind-map"
       },
       "date": "2024-03",
