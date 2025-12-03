@@ -36,7 +36,7 @@ export default function PortfolioItem() {
         (prev + 1) % project.images.screenshots.length
       )
     }
-  }, [project?.images?.screenshots])
+  }, [project])
 
   const prevImage = useCallback(() => {
     if (project?.images?.screenshots) {
@@ -44,7 +44,7 @@ export default function PortfolioItem() {
         prev === 0 ? project.images.screenshots.length - 1 : prev - 1
       )
     }
-  }, [project?.images?.screenshots])
+  }, [project])
 
   // Handle body overflow when lightbox is open
   useEffect(() => {
