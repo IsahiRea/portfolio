@@ -78,10 +78,19 @@ portfolio/
 │   │   └── ScrollToTop.jsx # Scroll restoration utility
 │   ├── data/
 │   │   └── portfolio.json  # Portfolio data (projects & categories)
+│   ├── styles/
+│   │   ├── base.css        # CSS variables, reset, typography, buttons
+│   │   └── components/     # Component-scoped stylesheets
+│   │       ├── Header.css
+│   │       ├── Intro.css
+│   │       ├── MyServices.css
+│   │       ├── AboutMe.css
+│   │       ├── MyWorks.css
+│   │       ├── Footer.css
+│   │       └── PortfolioItem.css
 │   ├── utils/
 │   │   └── portfolioHelpers.js # Data helper functions
 │   ├── App.jsx             # Root component with routes
-│   ├── index.css           # Global styles
 │   └── main.jsx            # Application entry point
 ├── index.html
 ├── package.json

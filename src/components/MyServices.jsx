@@ -1,4 +1,5 @@
 import { HashLink } from 'react-router-hash-link'
+import '../styles/components/MyServices.css'
 
 export default function MyServices() {
     const services = [

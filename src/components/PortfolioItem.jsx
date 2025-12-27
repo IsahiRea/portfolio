@@ -11,6 +11,7 @@ import {
   GitHubIcon,
   ArrowIcon
 } from '../assets/icons'
+import '../styles/components/PortfolioItem.css'
 
 
 export default function PortfolioItem() {

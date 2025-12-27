@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { getAllProjects } from '../utils/portfolioHelpers'
+import '../styles/components/MyWorks.css'
 
 export default function MyWorks() {
   const projects = getAllProjects()

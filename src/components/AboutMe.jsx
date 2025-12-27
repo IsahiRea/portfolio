@@ -1,4 +1,5 @@
 import aboutImg from '../assets/img/about-img.jpg';
+import '../styles/components/AboutMe.css';
 
 export default function AboutMe() {
     return (

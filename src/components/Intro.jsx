@@ -1,5 +1,6 @@
 import introImg from '../assets/img/intro-img.jpg';
 import { HashLink } from 'react-router-hash-link';
+import '../styles/components/Intro.css';
 
 export default function Intro() {
     return (

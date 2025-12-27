@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { HashLink } from 'react-router-hash-link'
+import '../styles/components/Header.css'
 
 export default function Header() {
     const [navOpen, setNavOpen] = useState(false);
