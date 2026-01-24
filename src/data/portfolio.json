@@ -5,14 +5,14 @@
       "slug": "travel-agent",
       "title": "Travel Agent",
       "subtitle": "Full-Stack Development",
-      "shortDescription": "An intelligent travel planning application combining real-time flight data, hotel information, and weather forecasts with AI-powered recommendations. Processes 10,000+ API calls efficiently with advanced caching.",
-      "fullDescription": "Travel Agent is a comprehensive travel planning application that leverages multiple APIs and AI technology to help users plan their perfect trip. The application features an interactive trip planning form with location swap functionality, budget planning capabilities, and real-time data from Amadeus (flights/hotels) and OpenWeather APIs. Powered by OpenAI for personalized recommendations, the app uses Promise.all for parallel data fetching, IndexedDB caching for airport codes and city coordinates, and session storage for efficient handling of large trip plans. Built with React 19 and React Router 7, it implements lazy-loaded routes and follows a mobile-first responsive design approach. The application efficiently handles over 10,000 API calls through intelligent caching strategies, reducing redundant requests and improving user experience.",
+      "shortDescription": "An intelligent travel planning application combining real-time flight data, hotel information, weather forecasts, and destination imagery with AI-powered recommendations. Features progressive loading that reduces perceived wait from 15+ seconds to ~500ms.",
+      "fullDescription": "Travel Agent is a comprehensive travel planning application that leverages multiple APIs and AI technology to help users plan their perfect trip. The application features an interactive trip planning form with location autocomplete, traveler counter, and budget planning capabilities. It integrates real-time data from Amadeus (flights/hotels), OpenWeather for forecasts, and Unsplash for destination imagery, all powered by OpenAI for personalized recommendations. The app uses Promise.all for parallel data fetching, session storage for efficient handling of large datasets, and custom hooks (useProgressiveTripData, usePersistedState) for state management. Built with React 19 and React Router 7, it implements lazy-loaded routes with code splitting, skeleton UI for loading states, and follows a mobile-first responsive design. Performance optimization reduces perceived wait times from 15+ seconds to approximately 500ms through progressive loading strategies.",
       "category": "fullstack",
-      "tags": ["React", "AI Integration", "API Integration", "IndexedDB"],
+      "tags": ["React", "AI Integration", "API Integration", "Performance"],
       "technologies": {
         "frontend": ["React 19", "JavaScript", "CSS3", "React Router 7"],
-        "backend": ["OpenAI API", "Amadeus API", "OpenWeather API"],
-        "tools": ["Vite 7", "Git", "ESLint", "Zod", "IndexedDB"]
+        "backend": ["OpenAI API", "Amadeus API", "OpenWeather API", "Unsplash API"],
+        "tools": ["Vite 7", "Git", "ESLint", "Zod", "Terser"]
       },
       "images": {
         "thumbnail": "/img/travel-agent-thumbnail.png",
@@ -31,11 +31,11 @@
       "status": "completed",
       "featured": true,
       "highlights": [
-        "AI-powered trip recommendations using OpenAI",
-        "Real-time flight, hotel, and weather data integration",
-        "Advanced caching system with IndexedDB",
-        "Parallel API data fetching for optimal performance",
-        "Mobile-first responsive design with lazy-loaded routes"
+        "AI-powered trip recommendations with daily schedules and packing lists",
+        "Real-time flight, hotel, weather, and destination imagery integration",
+        "Progressive loading reducing perceived wait from 15+ seconds to ~500ms",
+        "Parallel API data fetching with skeleton UI loading states",
+        "Custom hooks for state management and code splitting optimization"
       ]
     },
     {
